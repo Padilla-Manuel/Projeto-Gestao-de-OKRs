@@ -1,5 +1,5 @@
 package com.teckmack.gestor_okrs.controller;
-
+//cobre ate a semana 2
 import com.teckmack.gestor_okrs.model.Iniciativa;
 import com.teckmack.gestor_okrs.service.IniciativaService;
 import org.springframework.beans.factory.annotation.Autowired;

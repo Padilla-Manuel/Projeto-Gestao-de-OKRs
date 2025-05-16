@@ -4,11 +4,11 @@
 
 <h3>🪪 SEMANA 1 (7 a 20/04)</h3>
 
-- [ ] Criar o projeto Spring Boot com as dependências necessárias (Web, JPA, H2/Supabase).
+- [x] Criar o projeto Spring Boot com as dependências necessárias (Web, JPA, H2/Supabase).
 
-- [ ] Definir e criar as entidades e relacionamentos (Objetivos, KRs, Iniciativas).
+- [x] Definir e criar as entidades e relacionamentos (Objetivos, KRs, Iniciativas).
 
-- [ ] Configurar e validar o banco de dados.
+- [x] Configurar e validar o banco de dados.
 
 
 
@@ -16,11 +16,11 @@
 
 <h3>🪪 SEMANA 2 (21 a 27) </h3>
 
-- [ ] Criar repositórios (interfaces JPA).
+- [x] Criar repositórios (interfaces JPA).
 
-- [ ] Implementar serviços básicos para realizar CRUD nas entidades.
+- [x] Implementar serviços básicos para realizar CRUD nas entidades.
 
-- [ ] Testar endpoints básicos com ferramentas como Postman ou ThunderClient no VSCode.
+- [x] Testar endpoints básicos com ferramentas como Postman ou ThunderClient no VSCode.
 
 
 
@@ -28,11 +28,11 @@
 
 <h3>🪪 SEMANA 3 (28/04 a 04/05)</h3>
 
-- [ ] Implementar lógica de cálculo das porcentagens de conclusão para KRs e Objetivos.
+- [x] Implementar lógica de cálculo das porcentagens de conclusão para KRs e Objetivos.
 
-- [ ] Finalizar e testar todos os endpoints REST.
+- [x] Finalizar e testar todos os endpoints REST.
 
-- [ ] Realizar testes integrados para garantir a integridade e funcionalidade do back-end.
+- [x] Realizar testes integrados para garantir a integridade e funcionalidade do back-end.
 
 
 
@@ -42,11 +42,11 @@
 
 •Início do desenvolvimento da Entrega 2
 
-- [ ] Criar o projeto NextJS e configurar dependências necessárias (fetch).
+- [x] Criar o projeto NextJS e configurar dependências necessárias (fetch).
 
-- [ ] Criar as páginas básicas e estrutura inicial para Objetivos, KRs e Iniciativas.
+- [x] Criar as páginas básicas e estrutura inicial para Objetivos, KRs e Iniciativas.
 
-- [ ] Implementar consultas simples aos endpoints já existentes no back-end.
+- [x] Implementar consultas simples aos endpoints já existentes no back-end.
 
 
 
@@ -54,13 +54,13 @@
 
 <h3>🪪 🪪 Entrega e Apresentação (12/05) 🪪 🪪</h3>
 
-- [ ] Apresentação e entrega do projeto Back-end via Moodle.
+- [x] Apresentação e entrega do projeto Back-end via Moodle.
 
-- [ ] Código-fonte do back-end em um repositório público GitHub.
+- [x] Código-fonte do back-end em um repositório público GitHub.
 
-- [ ] Documentação básica dos endpoints REST.
+- [x] Documentação básica dos endpoints REST.
 
-- [ ] Apresentação presencial ao professor em aula, demonstrando os endpoints funcionais através de Postman ou ThunderClient.
+- [x] Apresentação presencial ao professor em aula, demonstrando os endpoints funcionais através de Postman ou ThunderClient.
 
 
 
@@ -68,13 +68,13 @@
 
 <h3>🪪 SEMANA 5 (12 a 18)</h3>
 
-- [ ] Desenvolver a interface para criação e edição dos Objetivos.
+- [x] Desenvolver a interface para criação e edição dos Objetivos.
 
-- [ ] Integrar visualização dinâmica das porcentagens de conclusão.
+- [x] Integrar visualização dinâmica das porcentagens de conclusão.
 
-- [ ] Implementar navegação e componentes reutilizáveis.
+- [x] Implementar navegação e componentes reutilizáveis.
 
-- [ ] Recomendo que aprendam a usar bibliotecas para criação das interfaces, mas cuidado para não “viciar” em uma, porque  ai você vai ficar dependente dela. Artigo com algumas sugestões: https://prismic.io/blog/react-component-libraries
+- [x] Recomendo que aprendam a usar bibliotecas para criação das interfaces, mas cuidado para não “viciar” em uma, porque  ai você vai ficar dependente dela. Artigo com algumas sugestões: https://prismic.io/blog/react-component-libraries
 
 
 

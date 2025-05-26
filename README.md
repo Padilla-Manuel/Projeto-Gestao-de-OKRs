@@ -82,11 +82,11 @@
 
 <h3>🪪 SEMANA 6 (19 a 25)</h3>
 
-- [ ] Finalizar interfaces de CRUD para Resultados-Chave e Iniciativas.
+- [x] Finalizar interfaces de CRUD para Resultados-Chave e Iniciativas.
 
-- [ ] Realizar testes completos de integração front-end e back-end.
+- [x] Realizar testes completos de integração front-end e back-end.
 
-- [ ] Ajustar e corrigir possíveis falhas ou inconsistências.
+- [x] Ajustar e corrigir possíveis falhas ou inconsistências.
 
 
 

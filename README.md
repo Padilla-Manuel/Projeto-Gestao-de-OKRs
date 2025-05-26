@@ -1,104 +1,32 @@
 # Projeto Gestão de OKRs
 
+## 🧠 Estratégia Técnica de Implementação
+O back-end deste projeto foi desenvolvido utilizando o Spring Boot como base para construção de uma API REST robusta, com foco em escalabilidade, manutenibilidade e integração eficiente com o front-end (via HTTP/CORS). A aplicação segue o padrão arquitetural MVC (Model-View-Controller) e está dividida em três camadas principais
 
+## 📦 Estrutura e Funcionalidades
+- Camada Controller : Responsável por expor a API REST para operações CRUD sobre as entidades . Utiliza anotações do Spring (@RestController, @RequestMapping, etc.) para mapear rotas HTTP e processar requisições dos clientes.
 
-<h3>🪪 SEMANA 1 (7 a 20/04)</h3>
+- Camada Service: Contém a lógica de negócio associada às clases. Além das operações padrão (listar, buscar, salvar, atualizar, deletar), essa camada também:
 
-- [x] Criar o projeto Spring Boot com as dependências necessárias (Web, JPA, H2/Supabase).
+- Atualiza automaticamente a porcentagem de conclusão do ResultadoChave relacionado sempre que uma iniciativa é criada ou removida.
 
-- [x] Definir e criar as entidades e relacionamentos (Objetivos, KRs, Iniciativas).
+- Implementa lógica de upsert no método put() (atualiza ou cria uma iniciativa com base no ID informado).
 
-- [x] Configurar e validar o banco de dados.
+- Camada Repository: Utiliza a interface JpaRepository para abstrair o acesso ao banco de dados com métodos prontos para persistência, busca e remoção de dados.
 
+- Entidades: Mapeada como uma entidade JPA, representa uma iniciativa ligada a um ResultadoChave (relacionamento @ManyToOne). Os dados incluem título, descrição e porcentagem de conclusão.
 
+## ✅ Padrões e Boas Práticas aprendidas em sala de aula
+Injeção de Dependências com @Autowired
 
+- Requisições RESTful com suporte a CORS para integração com frontend (Next.js/React)
 
+- Uso de Optional para evitar NullPointerException
 
-<h3>🪪 SEMANA 2 (21 a 27) </h3>
+- Respostas HTTP apropriadas (200 OK, 201 Created, 204 No Content, 404 Not Found)
 
-- [x] Criar repositórios (interfaces JPA).
+- Separação de responsabilidades entre as camadas da aplicação
 
-- [x] Implementar serviços básicos para realizar CRUD nas entidades.
-
-- [x] Testar endpoints básicos com ferramentas como Postman ou ThunderClient no VSCode.
-
-
-
-
-
-<h3>🪪 SEMANA 3 (28/04 a 04/05)</h3>
-
-- [x] Implementar lógica de cálculo das porcentagens de conclusão para KRs e Objetivos.
-
-- [x] Finalizar e testar todos os endpoints REST.
-
-- [x] Realizar testes integrados para garantir a integridade e funcionalidade do back-end.
-
-
-
-
-
-<h3>🪪 SEMANA 4 (05 a 11)</h3>
-
-•Início do desenvolvimento da Entrega 2
-
-- [x] Criar o projeto NextJS e configurar dependências necessárias (fetch).
-
-- [x] Criar as páginas básicas e estrutura inicial para Objetivos, KRs e Iniciativas.
-
-- [x] Implementar consultas simples aos endpoints já existentes no back-end.
-
-
-
-
-
-<h3>🪪 🪪 Entrega e Apresentação (12/05) 🪪 🪪</h3>
-
-- [x] Apresentação e entrega do projeto Back-end via Moodle.
-
-- [x] Código-fonte do back-end em um repositório público GitHub.
-
-- [x] Documentação básica dos endpoints REST.
-
-- [x] Apresentação presencial ao professor em aula, demonstrando os endpoints funcionais através de Postman ou ThunderClient.
-
-
-
-
-
-<h3>🪪 SEMANA 5 (12 a 18)</h3>
-
-- [x] Desenvolver a interface para criação e edição dos Objetivos.
-
-- [x] Integrar visualização dinâmica das porcentagens de conclusão.
-
-- [x] Implementar navegação e componentes reutilizáveis.
-
-- [x] Recomendo que aprendam a usar bibliotecas para criação das interfaces, mas cuidado para não “viciar” em uma, porque  ai você vai ficar dependente dela. Artigo com algumas sugestões: https://prismic.io/blog/react-component-libraries
-
-
-
-
-
-<h3>🪪 SEMANA 6 (19 a 25)</h3>
-
-- [x] Finalizar interfaces de CRUD para Resultados-Chave e Iniciativas.
-
-- [x] Realizar testes completos de integração front-end e back-end.
-
-- [x] Ajustar e corrigir possíveis falhas ou inconsistências.
-
-
-
-
-
-<h3>🪪 🪪 Entrega e Apresentação Final (26/05) 🪪 🪪</h3>
-
-•Entregar o código-fonte completo (front e back-end integrados) em repositórios públicos do GitHub.
-
-•Apresentação presencial do projeto funcionando ao professor durante a aula.
-
-<h2>IMPLEMENTAÇÃO</h2>
 
 
 

@@ -98,6 +98,10 @@
 
 •Apresentação presencial do projeto funcionando ao professor durante a aula.
 
+<h2>IMPLEMENTAÇÃO</h2>
+
+
+
 
 | Aluno |  RA   |
 |-------|-------|
